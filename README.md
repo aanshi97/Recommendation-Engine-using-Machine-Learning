@@ -20,13 +20,13 @@ The aim of this project is to design a recommender system helpful in web search 
 ## Approach used in
 There are three types of recommendation engine viz Popularity based recommendation engine, Content based recommendation engine and Collaborative filtering based recommendation engine. They are briefly defined as below:-
 
-### i.Popularity based recommendation engine:
+### i. Popularity based recommendation engine:
 The trending list in YouTube or Netflix is based on this algorithm. It keeps a track of view counts for each movie/video and then lists movies based on views in descending order (highest view count to lowest view count).
 
-### ii.Content based recommendation engine:
+### ii. Content based recommendation engine:
 This type of recommendation systems, takes in a movie that a user currently likes as input. Then it analyzes the contents (storyline, genre, cast, director etc.) of the movie to find out other movies which have similar content. Then it ranks similar movies according to their similarity scores and recommends the most relevant movies to the user.
 
-### iii.Collaborative filtering based recommendation engine:
+### iii. Collaborative filtering based recommendation engine:
 This algorithm at first tries to find similar users based on their activities and preferences (for example, both the users watch same type of movies or movies directed by the same director). Now, between these users (say, A and B) if user A has seen a movie that user B has not seen yet, then that movie gets recommended to user B and vice-versa. In other words, the recommendations get filtered based on the collaboration between similar user’s preferences (thus, the name “Collaborative Filtering”). One typical application of this algorithm can be seen in the Amazon e-commerce platform, where you get to see the “Customers who viewed this item also viewed” and “Customers who bought this item also bought” list.
 Another type of recommendation system can be created by mixing properties of two or more types of recommendation systems. This type of recommendation systems are known as hybrid recommendation system.
 
